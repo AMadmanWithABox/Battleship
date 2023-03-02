@@ -21,6 +21,8 @@ namespace Battleship
     public partial class MainWindow : Window
     {
         private Game game;
+        bool isVertical = false;
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -81,14 +83,53 @@ namespace Battleship
             Button btn = (Button)sender;
             if (btn.IsEnabled)
             {
-                btn.Background = new SolidColorBrush(System.Windows.Media.Colors.Gray);
+                if (game.phase == Game.Phase.PlaceShips)
+                {
+                    int length = game.player.ShipsToPlace;
+                    int y = Grid.GetRow(btn);
+                    int x = Grid.GetColumn(btn);
+                    if (game.CheckPlacement(x, y, length, isVertical))
+                    {
+                        for (int i = 0; i < length; i++)
+                        {
+                            //if you can place the ship, change the color of the buttons where the ship would go to green
+                            if(!isVertical) FireAtPlayer.Children.Cast<Button>().First(btn => Grid.GetRow(btn) == y && Grid.GetColumn(btn) == x + i).Background = new SolidColorBrush(Colors.Green);
+                            else FireAtPlayer.Children.Cast<Button>().First(btn => Grid.GetRow(btn) == y + i && Grid.GetColumn(btn) == x).Background = new SolidColorBrush(Colors.Green);
+                        }
+                    }
+                }
+                else if (game.phase == Game.Phase.PlayGame){
+                    if (game.isPlayerTurn)
+                        btn.Background = new SolidColorBrush(Colors.Gray);
+                }
             }
         }
 
         private void Button_OnMouseLeave(object sender, MouseEventArgs e)
         {
             Button btn = (Button)sender;
-            btn.Background = new SolidColorBrush(System.Windows.Media.Colors.Transparent);
+            if (btn.IsEnabled)
+            {
+                if (game.phase == Game.Phase.PlaceShips)
+                {
+                    int length = game.player.ShipsToPlace;
+                    int y = Grid.GetRow(btn);
+                    int x = Grid.GetColumn(btn);
+                    if (game.CheckPlacement(x, y, length, isVertical))
+                    {
+                        for (int i = 0; i < length; i++)
+                        {
+                            //if you can place the ship, change the color of the buttons where the ship would go to green
+                            if(!isVertical) FireAtPlayer.Children.Cast<Button>().First(btn => Grid.GetRow(btn) == y && Grid.GetColumn(btn) == x + i).Background = new SolidColorBrush(Colors.Transparent);
+                            else FireAtPlayer.Children.Cast<Button>().First(btn => Grid.GetRow(btn) == y + i && Grid.GetColumn(btn) == x).Background = new SolidColorBrush(Colors.Transparent);
+                        }
+                    }
+                }
+                else if (game.phase == Game.Phase.PlayGame){
+                    if (game.isPlayerTurn)
+                        btn.Background = new SolidColorBrush(Colors.Transparent);
+                }
+            }
         }
 
         private void BtnNewGame_OnClick(object sender, RoutedEventArgs e)
@@ -123,6 +164,30 @@ namespace Battleship
         {
             Button btn = (Button)sender;
             btn.Background = new SolidColorBrush(System.Windows.Media.Colors.Transparent);
+        }
+
+        private void Window_OnKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Space)
+            {
+                isVertical = !isVertical;
+                //refresh the board
+                foreach (Button btn in FireAtPlayer.Children)
+                {
+                    int x = Grid.GetColumn(btn);
+                    int y = Grid.GetRow(btn);
+                    if(game.player.Board[x,y].status == Player.TileStatus.Status.Ship)
+                        btn.Background = new SolidColorBrush(Colors.Gray);
+                    else if(game.player.Board[x,y].status == Player.TileStatus.Status.Hit)
+                        btn.Background = new SolidColorBrush(Colors.Red);
+                    else if(game.player.Board[x,y].status == Player.TileStatus.Status.Miss)
+                        btn.Background = new SolidColorBrush(Colors.Blue);
+                    else if(game.player.Board[x,y].status == Player.TileStatus.Status.Sunk)
+                        btn.Background = new SolidColorBrush(Colors.Black);
+                    else 
+                        btn.Background = new SolidColorBrush(Colors.Transparent);
+                }
+            }
         }
     }
 }

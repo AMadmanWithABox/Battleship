@@ -2,30 +2,27 @@
 
 public class Game
 {
+    public bool isPlayerTurn { get; set; }
+    public Player player { get; set; }
+    public Player computer { get; set; }
+    public Phase phase { get; set; }
+
     public Game()
-        {
-        }
+    {
+        isPlayerTurn = true;
+        player = new Player(false);
+        computer = new Player(true);
+        phase = Phase.PlaceShips;
+    }
 
-    //create 8x8 array
-        public TileStatus[,] board { get; set; } = new TileStatus[8, 8];
+    public bool CheckPlacement(int x, int y, int length, bool isVertical)
+    {
+        return player.CheckPlacement(x, y, length, isVertical);
+    }
 
-        public bool isPlayerTurn { get; set; } = true;
-
-        public TileStatus checkWin()
-        {
-            return TileStatus.Empty;
-        }
-
-        public void UpdateScore()
-        {
-            
-        }
-        
-        public enum TileStatus
-        {
-            Empty,
-            Miss,
-            Hit
-        
-        }
+    public enum Phase
+    {
+        PlaceShips,
+        PlayGame
+    }
 }
