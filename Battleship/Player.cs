@@ -35,14 +35,15 @@ public class Player
     {
         if(ShipsToPlace == 0) return;
         if (_isComputer) AiPlaceShips();
-        else PlayerPlaceShips();
     }
-
-    private void PlayerPlaceShips()
+    
+    public void PlaceShips(int x , int y, bool isVertical)
     {
-        ShipsToPlace--;
+        if (ShipsToPlace == 0) return;
+        if (!_isComputer) placeShip(x, y, GetShipLength(), isVertical)  ;
     }
 
+   
     private void AiPlaceShips()
     {
         Random r = new Random();
@@ -66,11 +67,21 @@ public class Player
     {
         if (CheckPlacement(x, y, shipLength, isVertical))
         {
-            Ships[ShipsToPlace] = new Ship(ShipsToPlace, x, y, isVertical);
+            Ships[ShipsToPlace - 1] = new Ship(ShipsToPlace, x, y, isVertical);
+
             for (int i = 0; i < shipLength; i++)
             {
-                if (isVertical) Board[x, y + i].ship = Ships[ShipsToPlace];
-                else Board[x + i, y].ship = Ships[ShipsToPlace];
+                if (isVertical)
+                {
+                    Board[x, y + i].ship = Ships[ShipsToPlace - 1];
+                    Board[x, y + i].status = TileStatus.Status.Ship;
+                }
+                else
+                {
+                    Board[x + i, y].ship = Ships[ShipsToPlace - 1];
+                    Board[x + i, y].status = TileStatus.Status.Ship;
+                }
+                
             }
         }
         ShipsToPlace--;

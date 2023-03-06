@@ -47,6 +47,8 @@ namespace Battleship
         //                 Image img = (Image)grid.Children.Cast<UIElement>()
         //                     .Last(x => Grid.GetRow(x) == row && Grid.GetColumn(x) == col);
         //                 img.Source = new BitmapImage(new Uri("assets/BlackPiece_lg.png", UriKind.Relative));
+
+
         //             }
         //             else if (board[row, col] == Game.TileStatus.Hit)
         //             {
@@ -71,6 +73,62 @@ namespace Battleship
             {
             Button btn = (Button)sender;
             Grid grid = (Grid)btn.Parent;
+            
+            
+            
+            if(game.phase == Game.Phase.PlaceShips && grid.Name == "FireAtPlayer")
+            {
+                int y = Grid.GetRow(btn);
+                int x =Grid.GetColumn(btn);
+                game.player.PlaceShips(x, y , isVertical);
+                
+
+            }
+
+            //update both boards
+            UpdateBoard();
+        }
+
+        private void UpdateBoard()
+        {
+            Player.TileStatus[,] board = game.player.Board;
+            Player.TileStatus[,] cpuboard = game.computer.Board;
+            
+            Grid grid = (Grid)FindName("FireAtPlayer");
+            Grid cpugrid = (Grid)FindName("FireAtCPUBoard");
+
+            Grid[] grids = { grid, cpugrid };
+            
+            for(int i =0; i < 2; i++)
+            {
+                Grid g = grids[i];
+                Player.TileStatus[,] currentBoard;
+                if(i == 0)
+                {
+
+                    currentBoard = board;
+                }else
+                {
+                    currentBoard = cpuboard;
+                }
+
+                
+                foreach (Button btn in g.Children)
+                {
+                    int x = Grid.GetColumn(btn);
+                    int y = Grid.GetRow(btn);
+                    if (currentBoard[x, y].status == Player.TileStatus.Status.Ship)
+                        btn.Background = new SolidColorBrush(Colors.Gray);
+                    else if (currentBoard[x, y].status == Player.TileStatus.Status.Hit)
+                        btn.Background = new SolidColorBrush(Colors.Red);
+                    else if (currentBoard[x, y].status == Player.TileStatus.Status.Miss)
+                        btn.Background = new SolidColorBrush(Colors.Blue);
+                    else if (currentBoard[x, y].status == Player.TileStatus.Status.Sunk)
+                        btn.Background = new SolidColorBrush(Colors.Black);
+                    else
+                        btn.Background = new SolidColorBrush(Colors.Transparent);
+                }
+            }
 
         }
 
@@ -81,9 +139,12 @@ namespace Battleship
             // to indicate that it is a valid move.
             // for now it will just change the color of the button to gray
             Button btn = (Button)sender;
+            Grid grid = (Grid)btn.Parent;
+            //    grid.Name = "grid";
             if (btn.IsEnabled)
             {
-                if (game.phase == Game.Phase.PlaceShips)
+                
+                if (game.phase == Game.Phase.PlaceShips && grid.Name == "FireAtPlayer")
                 {
                     int length = game.player.ShipsToPlace;
                     int y = Grid.GetRow(btn);
