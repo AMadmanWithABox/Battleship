@@ -80,419 +80,418 @@
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
 
                 <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                                     <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="0"
                         Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
                         MouseLeave="Button_OnMouseLeave"
-                        Click="Image_OnMouseMouseDown" />
+                        Click="Button_OnClick" />
                 <Button Grid.Row="8" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
 
@@ -532,411 +531,411 @@
 
                 <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="0" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                     <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
 
                 <Button Grid.Row="1" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="2" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="3" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="4" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="5" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="6" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="7" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown" />
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick" />
                 <Button Grid.Row="8" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="8" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="0" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="1" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="2" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="3" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="4" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="5" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="6" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="7" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="8" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
                 <Button Grid.Row="9" Grid.Column="9" Style="{StaticResource btnStyle}"
                         MouseEnter="Button_OnMouseEnter"
-                        MouseLeave="Button_OnMouseLeave" Click="Image_OnMouseMouseDown">
+                        MouseLeave="Button_OnMouseLeave" Click="Button_OnClick">
                 </Button>
             </Grid>
         </DockPanel>

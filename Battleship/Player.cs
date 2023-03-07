@@ -7,16 +7,20 @@ public class Player
     private bool _isComputer;
     public int RemainingShips { get; set; }
     public int ShipsToPlace { get; set; }
+    public int Hits { get; set; }
     public TileStatus[,] Board { get; set; }
     public Ship[] Ships { get; set; }
+    private Game game { set; get; }
 
-    public Player(bool isComputer)
+    public Player(bool isComputer, Game game)
     {
         RemainingShips = 5;
         ShipsToPlace = 5;
         Board = new TileStatus[10, 10];
         Ships = new Ship[5];
+        Hits = 0;
         _isComputer = isComputer;
+        this.game = game;
         initBoard();
     }
     
@@ -83,10 +87,17 @@ public class Player
                 }
                 
             }
+            if (--ShipsToPlace == 0 && !_isComputer)
+            {
+                game.phase = Game.Phase.PlayGame;
+            }
+            
+            return true;
         }
-        ShipsToPlace--;
-        return true;
+
+        return false;
     }
+
 
     public bool CheckPlacement(int x, int y, int shipLength, bool isVertical)
     {
