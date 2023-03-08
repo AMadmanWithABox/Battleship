@@ -98,19 +98,35 @@ namespace Battleship
                     game.Fire(x, y);
                     if (game.CheckForWin(game.player))
                     {
-                        
+                        disableGrids();
+                        MessageBox.Show("You Win!");
                     }
                     else if (game.CheckForWin(game.computer))
                     {
-                        
+                        disableGrids();
+                        MessageBox.Show("You Don't Win ): !");
                     }
                 }
             }
 
+           
 
             //update both boards
             UpdateBoard();
         }
+
+        private void disableGrids()
+        {
+            foreach (Button button in FireAtPlayer.Children.Cast<Button>())
+            {
+                button.IsEnabled = false;
+            }
+            foreach (Button button in FireAtCPUBoard.Children.Cast<Button>())
+            {
+                button.IsEnabled = false;
+            }
+        }
+
 
         private void UpdateBoard()
         {
@@ -225,20 +241,12 @@ namespace Battleship
         private void BtnNewGame_OnClick(object sender, RoutedEventArgs e)
         {
             game = new Game();
-            //updateGrid();
-            //reset the buttons
-            Grid grid = (Grid)FindName("grid");
-            for (int row = 0; row < 8; row++)
+            UpdateBoard();
+            foreach (Button button in FireAtPlayer.Children.Cast<Button>())
             {
-                for (int col = 0; col < 8; col++)
-                {
-                    Button btn = (Button)grid.Children.Cast<UIElement>().First(x => Grid.GetRow(x) == row && Grid.GetColumn(x) == col);
-                    btn.IsEnabled = true;
-                }
+                button.IsEnabled = true;
             }
-            //reset output
-            Label output = (Label)FindName("lblGameData");
-            output.Content = "";
+
         }
 
         private void BtnNewGame_OnMouseEnter(object sender, MouseEventArgs e)

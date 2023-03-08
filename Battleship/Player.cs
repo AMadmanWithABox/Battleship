@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Battleship;
 
@@ -44,7 +45,7 @@ public class Player
     public void PlaceShips(int x , int y, bool isVertical)
     {
         if (ShipsToPlace == 0) return;
-        if (!_isComputer) placeShip(x, y, GetShipLength(), isVertical)  ;
+        if (!_isComputer) placeShip(x, y, GetShipLength(), isVertical);
     }
 
    
@@ -106,7 +107,7 @@ public class Player
             for (int i = 0; i < shipLength; i++)
             {
                 if (isVertical && Board[x, y + i].status == TileStatus.Status.Empty) continue;
-                if (Board[x + i, y].status == TileStatus.Status.Empty) continue;
+                else if(Board[x + i, y].status == TileStatus.Status.Empty) continue;
                 return false;
             }
         }
@@ -114,9 +115,10 @@ public class Player
         {
             return false;
         }
-
+        
         return true;
     }
+
 
     public TileStatus checkWin()
     {

@@ -41,6 +41,24 @@ public class Game
             player.Hits++;
             turns++;
             computer.Board[x, y].status = Player.TileStatus.Status.Hit;
+            computer.Board[x, y].ship.Hit();
+            if (computer.Board[x, y].ship.IsSunk)
+            {
+                int X = computer.Board[x, y].ship.X;
+                int Y = computer.Board[x, y].ship.Y;
+                
+                for (int i = 0; i < computer.Board[X, Y].ship.Length; i++)
+                {
+                    if (computer.Board[X, Y].ship.IsVertical)
+                    {
+                        computer.Board[X, Y + i].status = Player.TileStatus.Status.Sunk;
+                    }
+                    else
+                    {
+                        computer.Board[X + i, Y].status = Player.TileStatus.Status.Sunk;
+                    }
+                }
+            }
         }
         else if(computer.Board[x, y].status == Player.TileStatus.Status.Empty)
         {
@@ -60,6 +78,7 @@ public class Game
             successfulTurn = false;
         }
         return successfulTurn;
+        
     }
 
     public bool CheckForWin(Player p)
