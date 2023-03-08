@@ -16,7 +16,7 @@ public class Ship
         if( length == 1)
         {
             Health = 3;
-            length = 3;
+            Length = 3;
         }
         X = x;
         Y = y;

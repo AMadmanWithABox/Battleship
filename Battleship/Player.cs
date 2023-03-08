@@ -106,9 +106,14 @@ public class Player
         {
             for (int i = 0; i < shipLength; i++)
             {
-                if (isVertical && Board[x, y + i].status == TileStatus.Status.Empty) continue;
-                else if(Board[x + i, y].status == TileStatus.Status.Empty) continue;
-                return false;
+                if (isVertical && Board[x, y + i].status != TileStatus.Status.Empty)
+                {
+                    return false;
+                }
+                if (!isVertical && Board[x + i, y].status != TileStatus.Status.Empty)
+                {
+                    return false;
+                }
             }
         }
         catch (IndexOutOfRangeException)

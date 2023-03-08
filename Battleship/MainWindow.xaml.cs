@@ -22,7 +22,7 @@ namespace Battleship
     {
         private Game game;
         private bool isVertical { set; get; }
-        private bool _cheatMode = true;
+        private bool _cheatMode = false;
         
         public MainWindow()
         {
@@ -96,12 +96,12 @@ namespace Battleship
                 if (game.isPlayerTurn)
                 {
                     game.Fire(x, y);
-                    if (game.CheckForWin(game.player))
+                    if (game.CheckForWin(game.computer))
                     {
                         disableGrids();
                         MessageBox.Show("You Win!");
                     }
-                    else if (game.CheckForWin(game.computer))
+                    else if (game.CheckForWin(game.player))
                     {
                         disableGrids();
                         MessageBox.Show("You Don't Win ): !");
@@ -168,6 +168,14 @@ namespace Battleship
                         btn.Background = new SolidColorBrush(Colors.Black);
                     if(currentBoard[x, y].status == Player.TileStatus.Status.Empty)
                         btn.Background = new SolidColorBrush(Colors.Transparent);
+                }
+
+                if (game.phase == Game.Phase.PlayGame)
+                {
+                    foreach (var button in FireAtCPUBoard.Children.Cast<Button>())
+                    {
+                        button.IsEnabled = true;
+                    }
                 }
             }
         }
